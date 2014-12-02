@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/team_line"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dip"
+    android:weightSum="12">
+    android:orientation="horizontal"
+    android:layout_margin="10sp">
+
+    <TextView
+        android:id="@+id/team_name"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="5"
+        android:gravity="left"
+        android:text="Team" />
+
+    <TextView
+        android:id="@+id/team_games"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="P" />
+
+    <TextView
+        android:id="@+id/team_games_win"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="W" />
+
+    <TextView
+        android:id="@+id/team_games_draw"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="G" />
+
+    <TextView
+        android:id="@+id/team_games_loose"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="V" />
+
+    <TextView
+        android:id="@+id/team_goals_dif"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="DV" />
+
+    <TextView
+        android:id="@+id/team_goals_got"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="DT" />
+
+    <TextView
+        android:id="@+id/team_points"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Pts" />
+</LinearLayout>
